@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Heading */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  right: 30%;
+  position: absolute;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  font-family: "Montserrat";
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section*/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+}
+
+.contact-icon {
+  color: black;
+  margin: 20px 10px;
+}
+
+.footer-text {
+  margin: 1%;
+}
+
+/* Media Section */
+@media screen and (max-width: 991px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .custom-image {
+    width: 100%;
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
